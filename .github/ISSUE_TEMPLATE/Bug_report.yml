@@ -63,14 +63,9 @@ body:
       label: "Expected behavior"
       description: "A clear and concise description of what you expected to happened (or code)"
 
-  - type: markdown
-    attributes:
-      value: |
-        --
-
   - type: input
     attributes:
-      label: "Version of `@nestjs/core`"
+      label: "NestJS version"
       description: |
         Which exact version of `@nestjs/core` package are you using?
         **Tip**: Make sure that all of yours `@nestjs/*` dependencies are in sync!
